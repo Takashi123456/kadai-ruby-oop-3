@@ -2,7 +2,7 @@ require './animal'
 require './thinkable'
 
 class Human < Animal
-    include Think 
+    include Thinkable 
     
     attr_accessor :name, :age, :hobby
     def initialize(name, age, hobby)

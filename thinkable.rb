@@ -1,6 +1,6 @@
 
-module Think
-    def think_hobby
+module Thinkable
+    def think
         puts "私は#{self.hobby}について考えています。"
     end
 end
